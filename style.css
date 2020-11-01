@@ -56,3 +56,25 @@ section {
   width: 1400px;
   margin: 0 auto;
 }
+
+/* base-------------------------------- */
+.header {
+  width: 100%;
+}
+
+.header-nav {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header nav ul li {
+  margin-right: 50px;
+}
