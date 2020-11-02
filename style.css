@@ -57,7 +57,8 @@ section {
   margin: 0 auto;
 }
 
-/* base-------------------------------- */
+/* /base-------------------------------- */
+/* header-------------------------------- */
 .header {
   width: 100%;
 }
@@ -78,3 +79,63 @@ section {
 .header nav ul li {
   margin-right: 50px;
 }
+/* /header-------------------------------- */
+/* mainvisual-------------------------------- */
+.mainvisual {
+  position: relative;
+  height: 600px;
+}
+
+.mainvisual img {
+  width: 70%;
+  height: 500px;
+  object-fit: cover;
+  margin-left: 30%;
+}
+
+.mainvisual h2 {
+  position: absolute;
+  top: 30%;
+  left: 20%;
+  background: rgba(255, 255, 255, 0.5);
+  font-size: 3rem;
+  padding: 1rem;
+}
+
+.bg1 {
+  background: #e8e7e7;
+  height: 700px;
+  width: 45%;
+  position: absolute;
+  top: -18%;
+  left: 0;
+  z-index: -1;
+}
+/* /mainvisual-------------------------------- */
+/* greeting-------------------------------- */
+.greeting .contents {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.greeting h2 {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.greeting .contents figure {
+  width: 50%;
+}
+
+.greeting .contents figure img {
+  height: 400px;
+  object-fit: cover;
+}
+
+.greeting .content {
+  width: 48%;
+}
+/* /greeting-------------------------------- */
