@@ -278,3 +278,32 @@ section {
   text-align: center;
 }
 /* /recruit-------------------------------- */
+/* footer-------------------------------- */
+footer .content-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.address p{
+  line-height: 1.8;
+}
+
+footer ul {
+  display: flex;
+}
+
+footer ul li {
+  margin-right: 50px;
+}
+
+.copylight p{
+  text-align: center;
+  font-size: 0.75rem;
+  margin: 0;
+  line-height: 100px;
+  color: #333;
+  background-color: #e8e7e7;
+}
+/* /footer-------------------------------- */
